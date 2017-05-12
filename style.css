@@ -22,8 +22,8 @@
     }
 
     img {
-      height: 25vh;
-      width: 40vh;
+      height: 110vh;
+      width: 100vw;
     }
     /* demo nav bar
   --------------------------------------------- */
@@ -90,7 +90,11 @@
     /* slide backgrounds */
 
     #slide-1 .slide__bg {
-      background-image: repeating-linear-gradient( rgb(102, 204, 102), rgb(102, 204, 102) 30px, rgb(92, 184, 92) 30px, rgb(92, 184, 92) 60px);
+      /* background-image: repeating-linear-gradient( rgb(102, 204, 102), rgb(102, 204, 102) 30px, rgb(92, 184, 92) 30px, rgb(92, 184, 92) 60px); */
+    }
+
+    .slide-1-text {
+      color: #fff;
     }
 
     #slide-2 .slide__bg {
@@ -175,9 +179,9 @@
           transform: translateZ(60px) scale(.8);
           transform-origin: 100% 50%;
         }
-        .slide:nth-child(2n) .slide__image {
+        .slide:nth-child(1n) .slide__image {
           transform: translateZ(100px) scale(.67);
-          transform-origin: 100% 50%;
+          transform-origin: 50% 50%;
         }
         .slide:nth-child(2n) .slide__text {
           transform-origin: 0% 50%;
